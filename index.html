@@ -1,0 +1,24 @@
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div class="game-content">
+            <div id="game-pause" class="game-pause">
+                游戏暂停
+            </div>
+            <div id="game-start" class="game-start">
+                <div class="image-cover"><img src="./asstes/image/开始背景.png"></div>
+                <button onclick="game.play()">开始游戏</button>
+            </div>
+            <div id="game-over" class="game-over">
+                <p class="plantext">蔡徐坤 你的球掉了</p>
+                <div><button onclick="game.newGame()">继续</button></div>
+            </div>
+            <div id="game"></div>
+        </div>
+    </body>
+    <script text="text/javascript" src="./js/game.js"></script>
+    <script text="text/javascript" src="./js/main.js"></script>
+</html>
